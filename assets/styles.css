@@ -1,0 +1,86 @@
+:root
+{
+
+    --grey11: #1C1C1C;
+    --gainsboro: #DCDCDC;
+    --steelblue: #4682B4;
+
+}
+
+*
+{
+
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body
+{
+
+    background: var(--bg);
+
+}
+
+/*ul
+{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}*/
+
+li
+{
+
+    list-style: circle;
+
+}
+
+.list
+{
+
+    list-style: square;
+
+}
+
+.light-theme
+{
+
+    --bg: var(--gainsboro);
+    --fontColor: var(--grey11);
+    --btnBg: var(--steelblue);
+    --btnFontColor: var(--gainsboro);
+
+}
+
+.dark-theme
+{
+
+    --bg: var(--grey11);
+    --fontColor: var(--gainsboro);
+    --btnBg: var(--gainsboro);
+    --btnFontColor: var(--steelblue);
+
+}
+
+.btn
+{
+
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+
+}
+
+.btn:focus
+{
+
+    outline-style: none;
+
+}
