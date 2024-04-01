@@ -22,13 +22,6 @@ body
 
 }
 
-/*ul
-{
-
-    font-family: Arial, Helvetica, sans-serif;
-
-}*/
-
 li
 {
 
@@ -66,7 +59,7 @@ li
 .btn
 {
 
-    position: absolute;
+    position: static;
     top: 20px;
     left: 250px;
     height: 50px;
@@ -75,6 +68,7 @@ li
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
+
 
 }
 
